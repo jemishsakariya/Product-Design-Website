@@ -27,11 +27,87 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 40px;
+    padding: 35px 40px;
 }
 
 #nav a {
     color: #fff;
     font-size: 18px;
+    font-weight: 500;
     text-decoration: none;
+}
+
+#nav h4 {
+    font-weight: 500;
+}
+
+#heading {
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+#heading h1 {
+    line-height: 0.9;
+    font-size: 10vw;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-left: 40px;
+}
+
+#heading #secondh1 {
+    margin-left: 205px;
+}
+
+.blocktext {
+    max-width: fit-content;
+}
+
+.blocktext h5 {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+#smallheadings {
+    margin-top: 80px;
+}
+
+#smallheadings h5 {
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#herofooter {
+    position: absolute;
+    bottom: 2.5%;
+    width: 100%;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#herofooter a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50px;
 }
