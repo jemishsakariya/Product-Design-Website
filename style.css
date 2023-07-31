@@ -170,31 +170,83 @@ body {
     height: 100vh;
 }
 
-#about img{
+#about img {
     width: 16rem;
 }
 
-#textabout{
+#textabout {
     width: 26rem;
 }
 
-#textabout h5{
+#textabout h5 {
     text-transform: uppercase;
     opacity: 0.6;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
-#textabout p{
+#textabout p {
     line-height: 1.7;
     margin-bottom: 30px;
 }
 
-#textabout a{
+#textabout a {
     padding: 9px 22px;
     border: 1px solid white;
     text-decoration: none;
     color: #fff;
     border-radius: 100px;
     font-size: 14px;
+}
+
+#subscribe {
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    color: #fff;
+}
+
+#fleft {
+    display: flex;
+    gap: 20px;
+}
+
+#fleft h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#fright a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#fright {
+    display: flex;
+    gap: 35px;
 }
