@@ -21,6 +21,15 @@ body {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .belem {
+    transform: translateY(100%);
+}
+
 #main {
     width: 100%;
     background-color: black;
@@ -71,7 +80,10 @@ body {
 }
 
 .blocktext {
-    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
 }
 
 .blocktext h5 {
@@ -83,6 +95,9 @@ body {
 
 #smallheadings {
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 #smallheadings h5 {
