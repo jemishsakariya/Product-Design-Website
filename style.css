@@ -13,6 +13,7 @@ body {
 
 #main {
     width: 100%;
+    background-color: black;
 }
 
 #hero {
@@ -20,6 +21,7 @@ body {
     height: 100vh;
     background-color: black;
     color: #fff;
+    position: relative;
 }
 
 #nav {
