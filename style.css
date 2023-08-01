@@ -146,6 +146,7 @@ body {
     background-color: black;
     padding-right: 10vw;
     color: #fff;
+    position: relative;
 }
 
 .elem {
@@ -166,6 +167,7 @@ body {
     font-size: 7.6vw;
     opacity: 0.7;
     font-weight: 500;
+    transition: all 0.4s ease-in-out;
 }
 
 .elem h5 {
@@ -179,10 +181,22 @@ body {
 
 .elem img {
     position: absolute;
+    right: 6%;
     z-index: 999;
     height: 140%;
     /* display: none; */
     opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.elem:hover img:nth-child(1) {
+    opacity: 1;
+    position: absolute;
+    right: 6%;
+}
+
+.elem:hover h1 {
+    padding-left: 4rem;
 }
 
 #about {
